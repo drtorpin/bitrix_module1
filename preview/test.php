@@ -1,0 +1,10 @@
+<?
+require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
+$APPLICATION->SetTitle("test");
+?><?$APPLICATION->IncludeComponent(
+	"dv:addressbook.list",
+	"",
+Array()
+);?><br><?
+require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
+?>
